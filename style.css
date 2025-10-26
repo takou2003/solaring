@@ -23,7 +23,8 @@ section p{
 	margin:2px;
 	position:relative;
 	top:50px;
-	font-family:'arial';
+	font-family:'Helvetica';
+	font-style: italic;
 }
 section .str{
 	color:yellow;
@@ -201,11 +202,38 @@ p{
   color: black;
 }
 
+.topnav div{
+	width:200px;
+	height:50px;
+	background-color:transparent;
+	position:absolute;
+	left:350px;
+	justify-content:center;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+}
+.topnav div img{
+	width:40px;
+	height:40px;
+	position:relative;
+	top:10px;
+}
+
+.topnav div p{
+	font-size:15px;
+	color:white;
+	position:relative;
+	top:-18px;
+	left:10px;
+	font-style:normal;
+	font-family:"Arial";
+}
 /* Add an active class to highlight the current page */
 .topnav .al.active {
   background-color: #04AA6D;
   color: white;
-  border-radius:5px;
+  border-radius:0px;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -214,13 +242,15 @@ p{
 } 
 
  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
+
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
@@ -235,6 +265,14 @@ p{
     display: block;
     text-align: left;
   }
+  
+  .topnav div{
+	width:200px;
+	height:50px;
+	background-color:transparent;
+	position:absolute;
+	left:125px;
+}
 } 
 
 .hr-with-text {
@@ -330,7 +368,7 @@ footer div .text #cimp{
 }
 .offers div .of1{
 	width:280px;
-	height:60px;
+	height:auto;
 	background-color:#04AA6D;
 	position:relative;
 	top:0px;
@@ -341,7 +379,7 @@ footer div .text #cimp{
 .offers div .of1 p{
 	color:white;
 	position:relative;
-	top:-13px;
+	top:0px;
 	font-weight:bold;
 	font-size:15px;
 }
@@ -356,7 +394,7 @@ footer div .text #cimp{
 	text-align:left;
 }
 .offers div .det1 ul li{
-	font-size:13px;
+	font-size:14px;
 	font-family:arial;
 	margin:2px;
 }
