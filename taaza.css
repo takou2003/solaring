@@ -417,6 +417,7 @@ html {
   aspect-ratio: 10 / 11;
   padding-top: 110%;
   padding-left: 120%;
+  margin-left:-30px;
 }
 
 .food-img {
