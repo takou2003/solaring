@@ -397,12 +397,14 @@ html {
   line-height: 1.1;
   letter-spacing: -2px;
   margin-bottom: 30px;
+  text-align:left;
 }
 
 .home-text {
   color: var(--rhythm);
   margin-bottom: 30px;
-  line-height: 1.6;
+  line-height: 1.1;
+  text-align:left;
 }
 
 .home .btn-group {
@@ -669,6 +671,7 @@ html {
 .product-card .img-box {
   position: relative;
   overflow: hidden;
+  
 }
 
 .product-img {
@@ -710,7 +713,7 @@ html {
   gap: 15px;
   background-color: var(--saffron);
   margin-bottom: 15px;
-  width:350px;
+  width:300px;
   height:80px;
 }
 
@@ -719,6 +722,7 @@ html {
   font-size: var(--fs-5);
   font-weight: 400;
   padding-left: 15px;
+  
 }
 
 .product-card .product-price {
@@ -754,6 +758,7 @@ html {
   gap: 5px;
   color: var(--saffron);
   height:250px;
+  width:300px;
 }
 
 .product-card .product-rating ul{
