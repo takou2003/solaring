@@ -666,6 +666,11 @@ html {
   grid-template-columns: 1fr;
   gap: 40px;
   margin-bottom: 50px;
+ 
+}
+.product-card{
+
+	justify-content:center;
 }
 
 .product-card .img-box {
@@ -763,6 +768,7 @@ html {
 
 .product-card .product-rating ul{
 	margin:15px;
+	text-align:left;
 }
 .product .btn-primary { margin-inline: auto; }
 
